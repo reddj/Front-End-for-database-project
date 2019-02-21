@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.databaseContainer {
+  padding: 5px;
+  overflow: scroll;
+  width: 25%;
+  position: absolute;
+  left: 0;
+  padding-right: 2em;
+  padding-left: 2em;
+  background-color: rgb(197, 205, 210);
+}
+
+.mapContainer {
+  height: 50%;
+  width: 77%;
+  position: fixed;
+  right: 0;
+  padding-left: 1em;
+}
+
+.mapIcon {
+  height: 25px;
+  width: 25px;
+}
+
+.locationButton {
+  width: 34%;
+  height: 4vh;
+}
+
